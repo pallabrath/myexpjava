@@ -1,0 +1,12 @@
+<hibernate-configuration>
+ <session-factory>
+  <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+  <property name="hibernate.connection.url">jdbc:oracle:thin:@host:port:sid</property>
+  <property name="hibernate.connection.username">scott</property>
+  <property name="hibernate.connection.password">tiger</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.Oracle12cDialect</property>
+  <property name="hibernate.default_schema"></property>
+  <property name="show_sql">true</property>
+  <mapping class="com.hb.entity.Employee"></mapping>
+</session-factory>
+</hibernate-configuration>
