@@ -1,0 +1,12 @@
+runtime: php72
+env: flex
+runtime_config:
+  document_root: src
+beta_settings:
+  cloud_sql_instances: advance-drive-265809:asia-south1:yep-db=tcp:3306
+env_variables:
+  DB_DSN: mysql:unix_socket=/cloudsql/<MY-PROJECT>:<INSTANCE-REGION>:<MY-DATABASE>;dbname=<my_db>
+  DB_USER: my-db-user
+  DB_PASS: my-db-pass
+  DB_NAME: my_db 
+  DB_SERVER: my_server  
