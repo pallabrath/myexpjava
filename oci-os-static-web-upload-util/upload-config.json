@@ -1,0 +1,9 @@
+{
+    "webdir" : "/Users/pallab/mylab/oci-os-static-web",
+    "index" : "index.html",
+    "configurationFilePath" : "~/.oci/config",
+    "configProfile" : "DEFAULT",
+    "comaprtmentOCId" : "ocid1.compartment.oc1......",
+    "bucketName" : "myexpdemo1"
+
+}
