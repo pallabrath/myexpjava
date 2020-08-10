@@ -12,7 +12,7 @@ Node - https://nodejs.org/en/
 Npm - https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 ### Inputs
-Required inputs for this tool need to be configure in **_upload-config.json_**.
+Required inputs for this tool need to be configured in **_upload-config.json_**.
 ```JavaScript
 {
     "webdir" : "/Users/pallab/mylab/oci-os-static-web",   # This is the path of the static web need to be uploaded
