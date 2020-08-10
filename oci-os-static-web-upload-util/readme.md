@@ -33,3 +33,5 @@ node upload-util.js
 ```
 
 ![upload tool example screen](https://github.com/pallabrath/myexpjava/blob/master/images/upload-util-screen.png)
+
+More details # http://www.myexperimentswithjava.com/2020/08/hosting-static-website-on-oracle-object.html
