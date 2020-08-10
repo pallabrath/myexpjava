@@ -13,7 +13,7 @@ https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 Required inputs for this tool need to be configure in **_upload-config.json_**.
 ```JavaScript
 {
-    "webdir" : "/Users/pallab/mylab/oci-os-static-web",   # This is the path of the static web need to be upladed
+    "webdir" : "/Users/pallab/mylab/oci-os-static-web",   # This is the path of the static web need to be uploaded
     "index" : "index.html",                               # Its the index/home page of your website 
     "configurationFilePath" : "~/.oci/config",            # OCI credential configuration
     "configProfile" : "DEFAULT",                          # OCI credentail config profile 
@@ -29,3 +29,5 @@ To run the upload util
 ```node
 node upload-util.js 
 ```
+
+![upload tool example screen](https://github.com/pallabrath/myexpjava/blob/master/images/upload-util-screen.png)
